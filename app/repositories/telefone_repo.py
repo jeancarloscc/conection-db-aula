@@ -15,3 +15,6 @@ def create_telefone(db: Session, id_pessoa: int, numero: str):
 # Obter todos os telefones de uma pessoa
 def get_telefones_by_pessoa(db: Session, id_pessoa: int):
     return db.query(Telefone).filter(Telefone.id_pessoa == id_pessoa).all()
+
+def get_all_telefones(db: Session):
+    return db.query(Telefone).all()

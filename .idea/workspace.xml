@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c2ccdc6-171e-43da-8e0c-30fb38d768eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/repositories/endereco_repo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/repositories/pedido_repo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/repositories/telefone_repo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/endereco.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/endereco.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/pedido.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/pedido.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/pessoa.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/pessoa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/telefone.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/telefone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/repositories/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/repositories/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/repositories/telefone_repo.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/repositories/telefone_repo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +52,10 @@
     "Python.database.executor": "Run",
     "Python.delete_aluno.executor": "Run",
     "Python.delete_pessoa (1).executor": "Run",
-    "Python.main.executor": "Run",
+    "Python.main.executor": "Debug",
     "Python.pessoa.executor": "Run",
     "Python.read_pessoas.executor": "Run",
+    "Python.read_telefone.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -169,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="read_pessoas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="read_telefone" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="conection-db-aula" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,7 +176,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/read_pessoas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/read_telefone.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,10 +188,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.read_telefone" />
         <item itemvalue="Python.delete_pessoa (1)" />
         <item itemvalue="Python.delete_pessoa" />
         <item itemvalue="Python.create_pessoa" />
-        <item itemvalue="Python.read_pessoas" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +211,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743605029010</updated>
-      <workItem from="1743605030145" duration="18072000" />
+      <workItem from="1743605030145" duration="21671000" />
     </task>
     <servers />
   </component>
@@ -227,9 +220,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/conection_db_aula$create_pessoa.coverage" NAME="create_pessoa Coverage Results" MODIFIED="1743620227453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/conection_db_aula$read_telefone.coverage" NAME="read_telefone Coverage Results" MODIFIED="1743632363253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/conection_db_aula$delete_aluno.coverage" NAME="delete_aluno Coverage Results" MODIFIED="1743620517463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/conection_db_aula$read_pessoas.coverage" NAME="read_pessoas Coverage Results" MODIFIED="1743618998175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/conection_db_aula$main.coverage" NAME="main Coverage Results" MODIFIED="1743630885914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/conection_db_aula$main.coverage" NAME="main Coverage Results" MODIFIED="1743632988503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/conection_db_aula$database.coverage" NAME="database Coverage Results" MODIFIED="1743612156082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
     <SUITE FILE_PATH="coverage/conection_db_aula$pessoa.coverage" NAME="pessoa Coverage Results" MODIFIED="1743612976436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/models" />
     <SUITE FILE_PATH="coverage/conection_db_aula$delete_pessoa__1_.coverage" NAME="delete_pessoa (1) Coverage Results" MODIFIED="1743620856489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
