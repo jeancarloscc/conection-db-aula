@@ -9,5 +9,7 @@ class Endereco(Base):
     id_pessoa = Column(Integer, ForeignKey('pessoa.id_pessoa'))
     cep = Column(String, nullable=False)
     logradouro = Column(String, nullable=False)
-    numero = Column(String, nullable=False)
+    numero = Column(Integer, nullable=False)
     complemento = Column(String, nullable=False)
+
+    pessoa = relationship("Pessoa", back_populates="enderecos")

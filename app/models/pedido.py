@@ -1,4 +1,6 @@
 from sqlalchemy import Column, Integer, String, ForeignKey, Float
+from sqlalchemy.orm import relationship
+
 from config.database import Base
 
 class Pedido(Base):
@@ -10,3 +12,5 @@ class Pedido(Base):
     valor_produto = Column(Float, nullable=False)
     quantidade_produto = Column(Integer, nullable=False)
     valor_total = Column(Float, nullable=False)
+
+    pessoa = relationship("Pessoa", back_populates="pedidos")
